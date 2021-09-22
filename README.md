@@ -31,4 +31,4 @@ This repository consists code base for nodejs, expressjs and mongodb backend set
 * While testing with Postman Collection, please select "Node Js Sample" environment.
     
 ### Demo video link 
-* https://www.screencast.com/t/c6QeP9o2X4n
+* https://www.screencast.com/t/oRvnyblTdL5
