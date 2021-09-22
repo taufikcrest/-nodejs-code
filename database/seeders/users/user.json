@@ -1,0 +1,40 @@
+[
+	{
+		"role": "Admin",
+		"isActive": true,
+		"email": "admin@example.com",
+		"password": "$2b$10$lJIAmyDPHm30hjGDCGAfpepAO2DX4CfVhnbskUOr2oPJytKllcScu",
+		"firstName": "Admin",
+		"lastName": "User",
+        "phoneNumber": "1111111111",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1609459200000"
+			}
+		},
+		"updatedAt": {
+			"$date": {
+				"$numberLong": "1609459200000"
+			}
+		}
+	},
+    {
+		"role": "User",
+		"isActive": true,
+		"email": "khushbu.s@example.com",
+		"password": "$2b$10$lJIAmyDPHm30hjGDCGAfpepAO2DX4CfVhnbskUOr2oPJytKllcScu",
+		"firstName": "Khushbu",
+		"lastName": "Shah",
+        "phoneNumber": "2111111111",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1609459200000"
+			}
+		},
+		"updatedAt": {
+			"$date": {
+				"$numberLong": "1609459200000"
+			}
+		}
+	}
+]
