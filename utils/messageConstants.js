@@ -14,7 +14,7 @@ module.exports = {
 		ERROR_IN_REGISTRATION: 'Error in Register. Please try again later.',
 		EMAIL_ALREADY_EXISTS: 'Account with that email address already exists.',
 		ERROR_IN_SAVE_REGISTER_USER: 'Error in register user data. Please try again later.',
-		SINGUP_SUCCESS: 'Success! You account is created and logged in.',
+		SINGUP_SUCCESS: 'Success! Your account is created and logged in.',
 		USER_ACCOUNT_NOT_ACTIVE: 'Your account is in-active, Please contact Pondir support for more help.',
 		EMAIL_PASSWORD_NOT_VALID: 'Invalid email or password.',
 		LOGIN_SUCCESS: 'Success! You are logged in.',
