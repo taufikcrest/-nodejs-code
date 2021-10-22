@@ -77,7 +77,7 @@ const UserService = {
 		try {
 			let user = await UserModel.findById(id);
 			if (user && user !== null)
-				user.phoneNumber = user.phoneNumber && user.phoneNumber.slice(1);
+				user.phoneNumber = user.phoneNumber;
 			else user = [];
 			return user;
 		} catch (error) {
@@ -213,6 +213,7 @@ const UserService = {
 						user.save((err, doc) => {
 							if (err) {
 								errorInRegistartion = true;
+								return;
 							}
 
 							token = generateJWTToken(doc._id, doc.role);
