@@ -84,7 +84,8 @@ exports.createUser = async (req, res) => {
 
 		sendSuccessResponse(res, { message: messageConstants.user.USER_ACCOUNT_CREATE_SUCCESS, data: saveUser });
 	} catch (error) {
-		sendErrorResponse(res, error.message);
+		const status = error.message.includes("validation failed:") ? 400 : 500;
+		sendErrorResponse(res, error.message, status);
 	}
 };
 
